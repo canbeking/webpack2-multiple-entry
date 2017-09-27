@@ -1,0 +1,56 @@
+$main-color: #bf7c7e;
+$main-button-col: #515663;
+$fs-lg:18px;
+$fs-md: 16px;
+$fs-sm: 14px;
+$col-bg: #f1f1f1;
+$col-white: #ffffff; 
+$col-lightgray: #cccccc;
+$col-gray: #eeeeee;
+$col-333: #333333;
+$col-999: #999999;
+$marg-20: 20px;
+$pointer-sty: pointer;
+
+.pd-0 {
+	padding: 0 !important;
+}
+.mg-0 {
+	margin: 0 !important;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+
+.gray {
+	color: $col-999;
+}
+
+
+
+@-webkit-keyframes bordershare {
+    from {border: 1px solid #ff0000;}
+	50% {border: 1px solid $col-lightgray}
+	to {border: 1px solid #ff0000;}
+}
+@-moz-keyframes bordershare {
+    from {border: 1px solid #ff0000;}
+	50% {border: 1px solid $col-lightgray}
+	to {border: 1px solid #ff0000;}
+}
+@-o-keyframes bordershare {
+    from {border: 1px solid #ff0000;}
+	50% {border: 1px solid $col-lightgray}
+	to {border: 1px solid #ff0000;}
+}
+@-ms-keyframes bordershare {
+    from {border: 1px solid #ff0000;}
+	50% {border: 1px solid $col-lightgray}
+	to {border: 1px solid #ff0000;}
+}
+@keyframes bordershare {
+	from {border: 1px solid #ff0000;}
+	50% {border: 1px solid $col-lightgray}
+	to {border: 1px solid #ff0000;}
+}
+
